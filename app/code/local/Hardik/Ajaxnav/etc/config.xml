@@ -7,7 +7,7 @@
 <config>
     <modules>
         <Hardik_Ajaxnav>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Hardik_Ajaxnav>
     </modules>
     <global>

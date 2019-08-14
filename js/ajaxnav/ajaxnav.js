@@ -5,32 +5,32 @@ var ajaxnav = {
         this.clickableObservers = clickableObservers;
         this.changeableObservers = changeableObservers;
 
-        //this.setUrls();
+        this.setUrls();
         this.bindEvents();
     },
-    /*setUrls: function() {
+    setUrls: function() {
         var self = this;
-        $$(self.clickableObservers).each(function(e){
+        /*$$(self.clickableObservers).each(function(e){
             var url = e.readAttribute('href');
             self.setUrl(url, e);
-        });
+        });*/
         $$(self.changeableObservers + ' option').each(function(e){
             var value = e.readAttribute('value');
             self.setValue(value, e);
         });
     },
-    setUrl: function(url, e) {
+    /*setUrl: function(url, e) {
         if (url.search('ajax=true') == -1 && url.indexOf('?') == -1)
             e.writeAttribute('href', url + '?ajax=true');
         else if (url.search('ajax=true') == -1 && url.indexOf('?') !== -1)
             e.writeAttribute('href', url + '&ajax=true');
-    },
+    },*/
     setValue: function(value, e) {
         if (value.search('ajax=true') == -1 && value.indexOf('?') == -1)
             e.writeAttribute('value', value + '?ajax=true');
         else if (value.search('ajax=true') == -1 && value.indexOf('?') !== -1)
             e.writeAttribute('value', value + '&ajax=true');
-    },*/
+    },
     bindEvents: function () {
         var self = this;
         $$(self.clickableObservers).each(function(e){
