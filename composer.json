@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/HardikAjaxNav",
+    "name": "OpenMageModuleFostering\/HardikAjaxNav",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Provides full ajax catalog layered navigation on product listing page as well as search results page.",
     "authors": [
-    {
-        "name": "Hardik Gajjar",
-        "email": "hardik.gajjar@krishinc.com"
-    }
-],
+        {
+            "name": "Hardik Gajjar",
+            "email": "hardik.gajjar@krishinc.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
