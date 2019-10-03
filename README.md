@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Provides full ajax catalog layered navigation on product listing page as well as search results page.
